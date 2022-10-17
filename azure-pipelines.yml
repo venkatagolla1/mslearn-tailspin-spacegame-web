@@ -4,6 +4,9 @@
     command: 'build'
 # Build and test ASP.NET Core projects targeting the full .NET Framework.
 # Add steps that publish symbols, save build artifacts, and more:
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'run'
 # https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
 
 trigger:
