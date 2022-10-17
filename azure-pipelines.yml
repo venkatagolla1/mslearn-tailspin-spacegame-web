@@ -1,8 +1,8 @@
-# ASP.NET Core (.NET Framework)
+# ASP.NET Core 
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-# Build and test ASP.NET Core projects targeting the full .NET Framework.
+# Build and test ASP.NET Core projects targeting the full .NET Core.
 # Add steps that publish symbols, save build artifacts, and more:
 - task: DotNetCoreCLI@2
   inputs:
